@@ -1,6 +1,6 @@
 # node-sumojr
 
-## Scripts currently be used
+## Scripts currently being used
 *These scripts are for auto running on boot and updating from git*
 
 **/launch.sh**
