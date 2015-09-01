@@ -52,7 +52,7 @@ function blinker(led) {
     if (blinkers.hasOwnProperty(key)) {
       var element = blinkers[key];
       if (led && led.toLowerCase().indexOf(key.toLowerCase()) != -1) {
-        element.pulse();
+        element.strobe();
       } else {
         element.stop().off();
       }
