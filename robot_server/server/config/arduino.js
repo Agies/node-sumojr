@@ -49,11 +49,13 @@ rBoard.on("ready", function(){
 });
 function blinker(led) {
   for (var key in blinkers) {
-    if (blinkers.hasOwnProperty(key) && led && led.toLowerCase().indexOf(key.toLowerCase()) != -1) {
+    if (blinkers.hasOwnProperty(key)) {
       var element = blinkers[key];
-      element.pulse();
-    } else {
-      element.stop().off();
+      if (led && led.toLowerCase().indexOf(key.toLowerCase()) != -1) {
+        element.pulse();
+      } else {
+        element.stop().off();
+      }
     }
   }
 }
