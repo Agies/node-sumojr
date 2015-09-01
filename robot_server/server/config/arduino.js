@@ -33,7 +33,7 @@ var rBoard = new five.Board({
 	io: new Raspi()
 });
 rBoard.on("ready", function(){
-	console.log('raspi board ready, created motors');
+	console.log('raspi board ready');
 });
 
 module.exports = function(socket) {
