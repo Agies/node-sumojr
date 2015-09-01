@@ -83,17 +83,17 @@ module.exports = function(socket) {
     blinker();
   });
   socket.on('left', function(data){
-    motors.motor1.reverse();
-    motors.motor2.reverse();
-    motors.motor3.forward();
-    motors.motor4.forward();
-    blinker("left");
-  });
-  socket.on('right', function(data){
     motors.motor1.forward();
     motors.motor2.forward();
     motors.motor3.reverse();
     motors.motor4.reverse();
+    blinker("left");
+  });
+  socket.on('right', function(data){
+    motors.motor1.reverse();
+    motors.motor2.reverse();
+    motors.motor3.forward();
+    motors.motor4.forward();
     blinker("right");
   });
 }
