@@ -33,6 +33,11 @@ var rBoard = new five.Board({
 	io: new Raspi()
 });
 rBoard.on("ready", function(){
+  var led = new five.Led({
+    pin: "GPIO13",
+    board: rBoard
+  });
+  led.strobe(500);
 	console.log('raspi board ready');
 });
 
