@@ -69,10 +69,10 @@ module.exports = function(socket) {
     blinker();
   });
   socket.on('backward', function(data){
-    motors.motor1.reverse(125);
-    motors.motor2.reverse(125);
-    motors.motor3.reverse(125);
-    motors.motor4.reverse(125);
+    motors.motor1.reverse();
+    motors.motor2.reverse();
+    motors.motor3.reverse();
+    motors.motor4.reverse();
     blinker("left:right");
   });
   socket.on('stop', function(data){
@@ -83,17 +83,17 @@ module.exports = function(socket) {
     blinker();
   });
   socket.on('left', function(data){
-    motors.motor1.reverse(125);
-    motors.motor2.reverse(125);
-    motors.motor3.forward(125);
-    motors.motor4.forward(125);
+    motors.motor1.reverse();
+    motors.motor2.reverse();
+    motors.motor3.forward();
+    motors.motor4.forward();
     blinker("left");
   });
   socket.on('right', function(data){
-    motors.motor1.forward(125);
-    motors.motor2.forward(125);
-    motors.motor3.reverse(125);
-    motors.motor4.reverse(125);
+    motors.motor1.forward();
+    motors.motor2.forward();
+    motors.motor3.reverse();
+    motors.motor4.reverse();
     blinker("right");
   });
 }
