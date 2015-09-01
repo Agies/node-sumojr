@@ -1,0 +1,919 @@
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-03 00:13:37 UTC)
+    loading tasks  7.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 75%
+    babel:server   2.3s  ▇▇▇▇▇▇▇▇▇▇▇▇ 25%
+    Total 9.4s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+
+[4mRunning "watch" task[24m
+Waiting...
+[33mWarning: Command failed: /bin/sh -c /home/pi/nodeprojects/robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+[39m
+Express server listening on 0.0.0.0:9000, in development mode
+1438560842404 Device(s) /dev/ttyACM0  
+1438560842556 Connected /dev/ttyACM0  
+1438560846510 Repl Initialized  
+>> board ready, created motors
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[undefined:undefined] DISCONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-03 00:28:49 UTC)
+    loading tasks  8.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 70%
+    babel:server   3.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 30%
+    Total 11.6s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+
+[4mRunning "watch" task[24m
+Waiting...
+[33mWarning: Command failed: /bin/sh -c /home/pi/nodeprojects/robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+[39m
+Express server listening on 0.0.0.0:9000, in development mode
+1438561759238 Device(s) /dev/ttyACM0  
+1438561759401 Connected /dev/ttyACM0  
+1438561762990 Repl Initialized  
+>> board ready, created motors
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[undefined:undefined] DISCONNECTED
+[undefined:undefined] DISCONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[undefined:undefined] DISCONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[undefined:undefined] DISCONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 01:58:49 UTC)
+    loading tasks  6.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 73%
+    babel:server   2.2s  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 27%
+    Total 8.3s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+
+[4mRunning "watch" task[24m
+Waiting...
+[33mWarning: Command failed: /bin/sh -c /home/pi/nodeprojects/robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+[39m
+Express server listening on 0.0.0.0:9000, in development mode
+1440986350643 Device(s) /dev/ttyACM0  
+1440986350810 Connected /dev/ttyACM0  
+1440986354382 Repl Initialized  
+>> board ready, created motors
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:13:43 UTC)
+    loading tasks  6.9s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 75%
+    babel:server   2.2s  ▇▇▇▇▇▇▇▇▇▇▇▇ 25%
+    Total 9.1s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+
+[4mRunning "watch" task[24m
+Waiting...
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+[39m
+Express server listening on 0.0.0.0:9000, in development mode
+1440987246643 Device(s) /dev/ttyACM0  
+1440987246808 Connected /dev/ttyACM0  
+1440987250378 Repl Initialized  
+>> board ready, created motors
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:23:33 UTC)
+    loading tasks  6.8s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 75%
+    babel:server   2.2s  ▇▇▇▇▇▇▇▇▇▇▇▇ 25%
+    Total 9s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+
+[4mRunning "watch" task[24m
+Waiting...
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+[39m
+Express server listening on 0.0.0.0:9000, in development mode
+1440987837012 Device(s) /dev/ttyACM0  
+1440987837203 Connected /dev/ttyACM0  
+1440987840782 Repl Initialized  
+>> board ready, created motors
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:34:18 UTC)
+    loading tasks    6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 72%
+    babel:server   2.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 28%
+    Total 8.3s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+ Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2015-08-31 02:34:14 UTC)
+loading tasks      887ms  ▇▇ 4%
+clean:server       227ms  ▇ 1%
+concurrent:server  11.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 52%
+wiredep:target      2.6s  ▇▇▇▇▇▇ 12%
+autoprefixer:dist  278ms  ▇ 1%
+express:dev         4.5s  ▇▇▇▇▇▇▇▇▇ 20%
+wait                1.5s  ▇▇▇ 7%
+open:server        227ms  ▇ 1%
+Total 22s
+
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:35:03 UTC)
+    loading tasks  5.9s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 72%
+    babel:server   2.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 28%
+    Total 8.2s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+ Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2015-08-31 02:34:58 UTC)
+loading tasks      901ms  ▇▇ 4%
+clean:server       231ms  ▇ 1%
+concurrent:server  11.2s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 51%
+wiredep:target      2.6s  ▇▇▇▇▇▇ 12%
+autoprefixer:dist  282ms  ▇ 1%
+express:dev         4.4s  ▇▇▇▇▇▇▇▇▇ 20%
+wait                1.5s  ▇▇▇▇ 7%
+open:server        224ms  ▇ 1%
+Total 21.8s
+
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:36:07 UTC)
+    loading tasks    6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 73%
+    babel:server   2.2s  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 27%
+    Total 8.2s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+ Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2015-08-31 02:36:03 UTC)
+loading tasks      884ms  ▇▇ 4%
+clean:server       226ms  ▇ 1%
+concurrent:server  11.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 52%
+wiredep:target      2.5s  ▇▇▇▇▇▇ 12%
+autoprefixer:dist  281ms  ▇ 1%
+express:dev         4.4s  ▇▇▇▇▇▇▇▇▇ 20%
+wait                1.5s  ▇▇▇▇ 7%
+open:server        233ms  ▇ 1%
+Total 21.8s
+
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:37:33 UTC)
+    loading tasks    6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 73%
+    babel:server   2.2s  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 27%
+    Total 8.2s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+ Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2015-08-31 02:37:29 UTC)
+loading tasks      892ms  ▇▇ 4%
+clean:server       228ms  ▇ 1%
+concurrent:server  11.2s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 51%
+injector:scripts   220ms  ▇ 1%
+wiredep:target      2.6s  ▇▇▇▇▇▇ 12%
+autoprefixer:dist  274ms  ▇ 1%
+express:dev         4.4s  ▇▇▇▇▇▇▇▇▇ 20%
+wait                1.5s  ▇▇▇▇ 7%
+open:server        231ms  ▇ 1%
+Total 21.7s
+
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:39:09 UTC)
+    loading tasks    6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 73%
+    babel:server   2.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 27%
+    Total 8.3s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+ Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2015-08-31 02:39:05 UTC)
+loading tasks      884ms  ▇▇ 4%
+clean:server       224ms  ▇ 1%
+concurrent:server  11.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 52%
+wiredep:target      2.5s  ▇▇▇▇▇ 12%
+autoprefixer:dist  278ms  ▇ 1%
+express:dev         4.4s  ▇▇▇▇▇▇▇▇▇ 20%
+wait                1.5s  ▇▇▇▇ 7%
+open:server        240ms  ▇ 1%
+Total 21.8s
+
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:39:42 UTC)
+    loading tasks    6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 73%
+    babel:server   2.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 27%
+    Total 8.3s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+ Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2015-08-31 02:39:38 UTC)
+loading tasks      883ms  ▇▇ 4%
+clean:server       224ms  ▇ 1%
+concurrent:server  11.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 51%
+wiredep:target      2.6s  ▇▇▇▇▇ 12%
+autoprefixer:dist  288ms  ▇ 1%
+express:dev         4.6s  ▇▇▇▇▇▇▇▇▇▇ 21%
+wait                1.5s  ▇▇▇ 7%
+open:server        228ms  ▇ 1%
+Total 22.1s
+
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:42:06 UTC)
+    loading tasks    6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 73%
+    babel:server   2.2s  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 27%
+    Total 8.3s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+
+[4mRunning "watch" task[24m
+Waiting...
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+[39m
+Express server listening on 0.0.0.0:9000, in development mode
+1440988947849 Device(s) /dev/ttyACM0  
+1440988948021 Connected /dev/ttyACM0  
+1440988951634 Repl Initialized  
+>> board ready, created motors
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+[32m>> [39mFile ".tmp" added.
+[36mCompleted in 0.006s at Sun Aug 30 2015 22:42:37 GMT-0400 (EDT)[39m - Waiting...
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:42:28 UTC)
+    loading tasks  7.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 72%
+    babel:server   2.8s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 28%
+    Total 10.1s
+    [32m>> [39mFile ".tmp/components" added.
+[32m>> [39mFile ".tmp/components/navbar" added.
+[32m>> [39mFile ".tmp/components/socket" added.
+
+[4mRunning "injector:scripts" (injector) task[24m
+[36mCompleted in 0.001s at Sun Aug 30 2015 22:42:38 GMT-0400 (EDT)[39m - Waiting...
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Error: listen EADDRINUSE
+    at exports._errnoException (util.js:746:11)
+    at Agent.Server._listen2 (net.js:1129:14)
+    at listen (net.js:1155:10)
+    at Agent.Server.listen (net.js:1240:5)
+    at Object.start (_debugger_agent.js:20:9)
+    at startup (node.js:86:9)
+    at node.js:814:3
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+ Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2015-08-31 02:42:23 UTC)
+loading tasks      983ms  ▇▇ 5%
+clean:server       280ms  ▇ 1%
+concurrent:server  13.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 63%
+injector:scripts   238ms  ▇ 1%
+wiredep:target      2.9s  ▇▇▇▇▇▇ 13%
+autoprefixer:dist  321ms  ▇ 1%
+express:dev         1.3s  ▇▇▇ 6%
+wait                1.5s  ▇▇▇▇ 7%
+open:server        228ms  ▇ 1%
+Total 21.7s
+
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:42:37 UTC)
+    loading tasks  7.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 74%
+    babel:server   2.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 26%
+    Total 9.6s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Error: listen EADDRINUSE
+    at exports._errnoException (util.js:746:11)
+    at Agent.Server._listen2 (net.js:1129:14)
+    at listen (net.js:1155:10)
+    at Agent.Server.listen (net.js:1240:5)
+    at Object.start (_debugger_agent.js:20:9)
+    at startup (node.js:86:9)
+    at node.js:814:3
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+ Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2015-08-31 02:42:32 UTC)
+loading tasks         1s  ▇▇▇ 5%
+clean:server       257ms  ▇ 1%
+concurrent:server  13.2s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 64%
+wiredep:target      2.7s  ▇▇▇▇▇▇ 13%
+autoprefixer:dist  292ms  ▇ 1%
+express:dev         1.1s  ▇▇▇ 5%
+wait                1.5s  ▇▇▇▇ 7%
+open:server        216ms  ▇ 1%
+Total 20.8s
+
+[undefined:undefined] DISCONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[undefined:undefined] DISCONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[undefined:undefined] DISCONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[undefined:undefined] DISCONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[undefined:undefined] DISCONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[undefined:undefined] DISCONNECTED
+setting up board socket listeners
+[undefined:undefined] CONNECTED
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+Cleaning .tmp...[32mOK[39m
+
+[4mRunning "env:all" (env) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "babel:server" (babel) task[24m
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2015-08-31 02:46:56 UTC)
+    loading tasks  5.9s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 72%
+    babel:server   2.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 28%
+    Total 8.2s
+    
+[4mRunning "injector:scripts" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mjs[39m files [90m(5 files)[39m
+
+[4mRunning "injector:css" (injector) task[24m
+[90mMissing option `template`, using `dest` as template instead[39m
+Injecting [32mcss[39m files [90m(3 files)[39m
+
+[4mRunning "wiredep:target" (wiredep) task[24m
+
+[4mRunning "autoprefixer:dist" (autoprefixer) task[24m
+
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Debugger listening on port 5858
+Connecting to MongoDB mongodb://localhost/robotserver-dev with [object Object]
+
+[4mRunning "wait" task[24m
+[32m>> [39mWaiting for server reload...
+Done waiting!
+
+[4mRunning "open:server" (open) task[24m
+[33mWarning: Command failed: /bin/sh -c /robot_server/node_modules/open/vendor/xdg-open "http://0.0.0.0:9000"
+xdg-open: no method available for opening 'http://0.0.0.0:9000'
+ Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
+
+
+Execution Time (2015-08-31 02:46:52 UTC)
+loading tasks      897ms  ▇▇ 4%
+clean:server       228ms  ▇ 1%
+concurrent:server  11.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 51%
+wiredep:target      2.5s  ▇▇▇▇▇▇ 12%
+autoprefixer:dist  282ms  ▇ 1%
+express:dev         4.4s  ▇▇▇▇▇▇▇▇▇ 20%
+wait                1.5s  ▇▇▇▇ 7%
+open:server        232ms  ▇ 1%
+Total 21.7s
+

@@ -1,0 +1,36 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+<style>
+.wrapper {
+ margin: 0 auto;
+ display: flex;
+ flex-flow: row wrap;
+}
+.wrapper > * {
+ flex: 1 100%;
+}
+.forward, .backward {
+ width: 160px;
+ margin: 10px 5px;
+}
+.left, .right {
+ width: 75px;
+ margin: 0 5px;
+}
+
+</style>
+<div class="wrapper">
+<h1>{{currentKey}}</h1>
+<input type="text" ng-keypress="keypress($event)" />
+<h1>Remote Control</h1>
+<div>
+  <button class="btn forward" ng-click="command('forward')">Forward</button>
+  <button class="btn stop" ng-click="command('stop')">Stop</button>
+</div> 
+<div>
+  <button class="btn left" ng-click="command('left')">Left</button><button class="btn right" ng-click="command('right')">Right</button>
+</div> 
+<div>
+  <button class="btn backward" ng-click="command('backward')">Backward</button>
+</div> 
+</div>
+
