@@ -17,6 +17,7 @@
     "method-override": "~1.0.0",
     "mongoose": "~4.0.3",
     "morgan": "~1.0.0",
+    "raspi-io": "^3.3.5",
     "serve-favicon": "~2.0.1",
     "socket.io": "^1.0.6",
     "socket.io-client": "^1.0.6",

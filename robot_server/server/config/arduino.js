@@ -1,8 +1,30 @@
 'use strict';
 
 var five = require('johnny-five'),
+    Raspi = require('raspi-io'),
     board,
-    motors = {};
+    motors = {},
+    on = true;
+var sys = require('sys')
+var exec = require('child_process').exec;
+var rBoard = new five.Board({
+	io: new Raspi()
+});
+
+rBoard.on("ready", function(){
+	setInterval(function(){
+		exec('sudo sh -c "echo ' + (on ? 1 : 0) + ' >/sys/class/leds/led0/brightness"', 
+			function(error, stdout, stderr) {
+				sys.print('stdout: ' + stdout);
+  			sys.print('stderr: ' + stderr);
+  			if (error !== null) {
+    			console.log('exec error: ' + error);
+			  }
+		});
+		on = !on;
+	}, 1000);
+});
+
 board = new five.Board({
   //port: ""
 });
@@ -25,10 +47,10 @@ module.exports = function(socket) {
     motors.motor4.forward(255);
   });
   socket.on('backward', function(data){
-    motors.motor1.reverse();
-    motors.motor2.reverse();
-    motors.motor3.reverse();
-    motors.motor4.reverse();
+    motors.motor1.reverse(125);
+    motors.motor2.reverse(125);
+    motors.motor3.reverse(125);
+    motors.motor4.reverse(125);
   });
   socket.on('stop', function(data){
     motors.motor1.stop();
@@ -37,15 +59,15 @@ module.exports = function(socket) {
     motors.motor4.stop();
   });
   socket.on('left', function(data){
-    motors.motor1.reverse();
-    motors.motor2.reverse();
-    motors.motor3.forward();
-    motors.motor4.forward();
+    motors.motor1.reverse(125);
+    motors.motor2.reverse(125);
+    motors.motor3.forward(125);
+    motors.motor4.forward(125);
   });
   socket.on('right', function(data){
-    motors.motor1.forward();
-    motors.motor2.forward();
-    motors.motor3.reverse();
-    motors.motor4.reverse();
+    motors.motor1.forward(125);
+    motors.motor2.forward(125);
+    motors.motor3.reverse(125);
+    motors.motor4.reverse(125);
   });
 }
