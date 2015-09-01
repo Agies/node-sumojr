@@ -4,6 +4,10 @@ var five = require('johnny-five'),
     Raspi = require('raspi-io'),
     board,
     motors = {},
+    blinkers = {
+      left: null,
+      right: null
+    },
     on = true;
 var sys = require('sys')
 var exec = require('child_process').exec;
@@ -33,14 +37,26 @@ var rBoard = new five.Board({
 	io: new Raspi()
 });
 rBoard.on("ready", function(){
-  var led = new five.Led({
+  blinkers.left = new five.Led({
+    pin: "GPIO16",
+    board: rBoard
+  });
+  blinkers.right = new five.Led({
     pin: "GPIO13",
     board: rBoard
   });
-  led.strobe(500);
 	console.log('raspi board ready');
 });
-
+function blinker(led) {
+  for (var key in blinkers) {
+    if (blinkers.hasOwnProperty(key) && led && led.toLowerCase().indexOf(key.toLowerCase()) != -1) {
+      var element = blinkers[key];
+      element.pulse();
+    } else {
+      element.stop().off();
+    }
+  }
+}
 module.exports = function(socket) {
   console.log('setting up board socket listeners');
   socket.on('forward', function(data){
@@ -48,29 +64,34 @@ module.exports = function(socket) {
     motors.motor2.forward(255);
     motors.motor3.forward(255);
     motors.motor4.forward(255);
+    blinker();
   });
   socket.on('backward', function(data){
     motors.motor1.reverse(125);
     motors.motor2.reverse(125);
     motors.motor3.reverse(125);
     motors.motor4.reverse(125);
+    blinker("left:right");
   });
   socket.on('stop', function(data){
     motors.motor1.stop();
     motors.motor2.stop();
     motors.motor3.stop();
     motors.motor4.stop();
+    blinker();
   });
   socket.on('left', function(data){
     motors.motor1.reverse(125);
     motors.motor2.reverse(125);
     motors.motor3.forward(125);
     motors.motor4.forward(125);
+    blinker("left");
   });
   socket.on('right', function(data){
     motors.motor1.forward(125);
     motors.motor2.forward(125);
     motors.motor3.reverse(125);
     motors.motor4.reverse(125);
+    blinker("right");
   });
 }
