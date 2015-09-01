@@ -8,5 +8,5 @@ var ThingSchema = new Schema({
   info: String,
   active: Boolean
 });
-
+ 
 module.exports = mongoose.model('Thing', ThingSchema);
