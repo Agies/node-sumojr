@@ -13,15 +13,13 @@ board.on("ready", function(){
 	var leftServo = new five.Servo.Continuous("GPIO6");
 	rightServo.sweep();
 	leftServo.sweep();
-	signalReady();
+	//signalReady();
 });
 
 function signalReady() {
 	setInterval(function(){
 		exec('sudo sh -c "echo ' + (on ? 1 : 0) + ' >/sys/class/leds/led0/brightness"', 
 			function(error, stdout, stderr) {
-				sys.print('stdout: ' + stdout);
-  			sys.print('stderr: ' + stderr);
   			if (error !== null) {
     			console.log('exec error: ' + error);
 			  }
