@@ -9,6 +9,14 @@ var board = new five.Board({
 });
 
 board.on("ready", function(){
+	var rightServo = new five.Servo.Continuous("GPIO5");
+	var leftServo = new five.Servo.Continuous("GPIO6");
+	rightServo.sweep();
+	leftServo.sweep();
+	signalReady();
+});
+
+function signalReady() {
 	setInterval(function(){
 		exec('sudo sh -c "echo ' + (on ? 1 : 0) + ' >/sys/class/leds/led0/brightness"', 
 			function(error, stdout, stderr) {
@@ -20,4 +28,4 @@ board.on("ready", function(){
 		});
 		on = !on;
 	}, 1000);
-});
+}
