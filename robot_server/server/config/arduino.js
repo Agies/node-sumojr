@@ -1,6 +1,6 @@
 'use strict';
 
-var bot = require("./sumojr");
+var bot = require("./" + process.env.BOT);
 var sys = require('sys');
 var exec = require('child_process').exec;
 var on = true;
