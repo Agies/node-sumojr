@@ -9,11 +9,15 @@ var board = new five.Board({
 });
 
 board.on("ready", function(){
-	var rightServo = new five.Servo.Continuous("GPIO5");
-	var leftServo = new five.Servo.Continuous("GPIO6");
-	rightServo.sweep();
-	leftServo.sweep();
-	//signalReady();
+	var rightServo = new five.Servo.Continuous("GPIO18");
+	var leftServo = new five.Servo.Continuous("GPIO19");
+	rightServo.ccw(1);
+	leftServo.cw(1);
+	this.repl.inject({
+	  right: rightServo,
+	  left: leftServo
+	});
+	signalReady();
 });
 
 function signalReady() {
