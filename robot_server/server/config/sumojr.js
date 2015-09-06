@@ -29,12 +29,12 @@ module.exports.backward = function() {
 	leftServo.cw(1);
 }
 module.exports.left = function() {
-	rightServo.ccw(1);
-	leftServo.ccw(1);
-}
-module.exports.right = function() {
 	rightServo.cw(1);
 	leftServo.cw(1);
+}
+module.exports.right = function() {
+	rightServo.ccw(1);
+	leftServo.ccw(1);
 }
 module.exports.stop = function() {
 	rightServo.stop();
